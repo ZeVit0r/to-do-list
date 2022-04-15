@@ -1,0 +1,43 @@
+:root {
+    --blue-200: #DFE8F3;
+    --blue-400: #6D93C7;
+    --blue-700: #426FAE;
+    --green: #06D6A0;
+    --red: #E63946;
+    --gray-200: #c4c4c4;
+    --gray-500: #999999;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--white);
+}
+
+html {
+    @media(max-width: 1080px) {
+        font-size: 93.75%;
+    }
+
+    @media(max-width: 720px) {
+        font-size: 87.5%;
+    }
+}
+
+body, input, textarea, button {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
