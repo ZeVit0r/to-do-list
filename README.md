@@ -68,7 +68,7 @@ $ cd frontend
 $ yarn
 
 # Execute a aplicação
-$ yarn dev
+$ yarn start
 ```
 
 <hr/>
