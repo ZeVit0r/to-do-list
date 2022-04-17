@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="https://github.com/ZeVit0r/to-do-list/blob/main/src/assets/logo.svg" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">🚀 Tecnologias:</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=react&message=18.0.0&color=61DAFB&logo=react" />
+  <img src="https://img.shields.io/static/v1?label=typescript&message=4.4.2&color=3178C6&logo=typescript" />
+  <img src="https://img.shields.io/static/v1?label=material-ui&message=4.4.2&color=007FFF&logo=mui" />
+</p>
 
-In the project directory, you can run:
+### ✅ Screenshots
+  <div align="center">
+    <img align="center" src="https://github.com/ZeVit0r/to-do-list/blob/main/images/telas.png" alt="projeto" />
+  </div>
+  
+### 💻 Projeto
 
-### `yarn start`
+Projeto desenvolvido com o intuito de organizar tarefas do dia a dia.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 📕 Bibliotecas:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- react
+- axios
+- typescript
+- material-ui
 
-### `yarn test`
+### 📎 Features 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Autenticação na aplicação com Github
+- [x] Cadastro tarefas na lista
+- [x] Listagem de tarefas, podendo marcar como feitas ou não feitas
+- [x] Exclusão de tarefas
 
-### `yarn build`
+### ⚙ Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- Yarn.js
+- Editor de códigos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h1 align="center"> Rodando o software</h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### OBS: Para rodar Corretamente a aplicação web, será necessário criar uma aplicação OAuth no github na aba de desenvolvimento, colocar a rota de callback na aplicação OAuth e utilizar as variáveis e IDs concedidos como se segue a baixo!
 
-### `yarn eject`
+### Clonando o repositório
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+$ git clone https://github.com/gabriel-nt
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Criando variáveis de ambiente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+# dentro da pasta raiz da aplicação crie um arquivo ".env" para colocar as variaveis de ambiente como na imagem abaixo:
+```
+<div align="center">
+    <img align="center" src="https://github.com/ZeVit0r/to-do-list/blob/main/images/variables.png" alt="projeto" />
+ </div>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 💻 para rodar o Frontend (web)
 
-## Learn More
+```bash
+# Navegue para a pasta
+$ cd frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Instale as dependências
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Execute a aplicação
+$ yarn dev
+```
+
+<hr/>
+
+<p align="center">by José Vitor</p>
